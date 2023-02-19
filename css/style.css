@@ -366,3 +366,96 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
 }
+
+
+/* media query */
+
+@media (max-width:1199px){
+    nav ul{
+        display: none;
+    }
+    nav .logo{
+        margin: 30px;
+        font-size: 50px;
+    }
+    .content h4{
+        font-size: 40px;
+    }
+    .content h1{
+        font-size: 90px;
+    }
+    .content h3{
+        font-size: 40px;
+    }
+    .content form{
+        width: 80%;
+    }
+
+    .about img{
+        padding: 15px;
+        width: 380px;
+    }
+    .about-text h2{
+        font-size: 55px ;
+    }
+
+    .service .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:991px){
+    nav .logo{
+        margin: 15px;
+        font-size: 40px;
+    }
+    nav a{
+        display: none;
+    }
+
+    .content h4{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .content h1{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .content h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .content form{
+        width: 100%;
+        left: 0;
+        /* margin: 0; */
+    }
+
+    .about img{
+        display: none;
+    }
+    .about-text{
+        padding: 20px;
+    }
+
+
+    .service .box{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .service .card{
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .contact-me{
+        padding: 20px;
+    }
+
+
+}
