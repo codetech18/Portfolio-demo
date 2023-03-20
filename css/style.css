@@ -8,9 +8,9 @@
 .hero{
     height: 100vh;
     width:100%;
-    background: #200122;  
-    background: -webkit-linear-gradient(to right, #6f0000, #200122);  
-    background: linear-gradient(to right, #6f0000, #200122); 
+    background: url('../images/pexels-احمد-كلاسيك-6155584.jpg');  
+    /* background: -webkit-linear-gradient(to right, #6f0000, #200122);  
+    /* background: linear-gradient(to right, #6f0000, #200122);  * */
 
     background-size: cover;
     background-position: center;
@@ -206,14 +206,14 @@ button:hover{
 /* services section */
 
 .service{
-    background: #101010;
+    background: url('../images/images\ \(4\).jpeg');
     width: 100%;
     padding: 100px 0PX;
 
 }
 
 .title h2{
-    color: white;
+    color:  #191919 ;
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
